@@ -1,13 +1,13 @@
 public class Doctor extends Person{
 
-    private int livesSaved;
+    private String livesSaved;
 
-    public Doctor(String firstName, String lastName, String phoneNumber, int livesSaved){
+    public Doctor(String firstName, String lastName, String phoneNumber, String livesSaved){
         super(firstName, lastName, phoneNumber);
         this.livesSaved = livesSaved;
     }
 
-    public int getLivesSaved(){
+    public String getLivesSaved(){
         return this.livesSaved;
     }
 
